@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74a211, rgb(26, 136, 72));
+}
+
+.container {
+    width: 90%;
+    background-color: #fff;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.573);
+    text-align: center;
+}
+
+.from-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type=number] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+h1,
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    color: #555;
+    margin-top: 5px;
+    align-items: center;
+    font-weight: 500;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    accent-color: rgb(4, 146, 4);
+}
+
+.generate-btn,
+.copy-btn {
+    background-color: #06c552;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate-btn:hover,
+.copy-btn:hover {
+    background-color: #23d168;
+    color: wheat;
+}
+
+.output {
+    margin-top: 5px;
+    background-color: #f8e4e4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #d79595;
+}
+
+#result {
+    background-color: #e8e8f3;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(133, 3, 162);
+}
+
+.copy-btn {
+    background-color: #74a211;
+}

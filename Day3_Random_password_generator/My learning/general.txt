@@ -1,0 +1,1 @@
+This is general file used for read and write in python.This text append to the file
