@@ -2,7 +2,7 @@
 import os
 import json
 
-PathName="Day4_To_Do_List/my_learning/test.json"
+PathName="Day5_To_Do_List/my_learning/test.json"
 
 print(os.path.exists(PathName))
 print(os.name)
@@ -12,7 +12,7 @@ def PathExist():
         return[]
     
     with open(PathName,"r") as f:
-        return json.load(f)
+        return json.load(f) 
         
         
 if(os.path.exists(PathName)):
